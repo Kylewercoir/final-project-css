@@ -10,18 +10,19 @@ grid-template-columns: 1fr;
 min-height: 100vh;
 }
 body {
-    font-family: 'QuirkyRobot', sans-serif;
+    font-family: 'Sansation-Regular', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
 
 @font-face {
-    font-family: QuirkyRobot;
-    src: url(fonts/QuirkyRobot-Regular.woff2) format("woff2");
+    font-family: Sansation-Regular;
+    src: url(fonts/Sansation-Regular.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
+    font-size: medium;
 }
 
 /* Header Styles */
@@ -72,8 +73,8 @@ h1 {
 }
 
 @font-face {
-    font-family: Sansation-Regular;
-    src: url(fonts/Sansation-Regular.woff2) format("woff2");
+    font-family: QuirkyRobot;
+    src: url(fonts/QuirkyRobot-Regular.woff2) format("woff2");
     font-weight: normal;
     font-style: normal;
     font-variant: normal;
